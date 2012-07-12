@@ -590,3 +590,4 @@ for(var each in events.EventEmitter.prototype)
 
 exports.SMTP   = SMTP;
 exports.state  = SMTPState;
+exports.setlog = function(newlog) { log = newlog; };
